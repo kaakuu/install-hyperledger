@@ -1,7 +1,7 @@
 # Setup
 Instalación de hyperledger v2.2.x.
 
-##Requisitos
+## Requisitos
 
 ## Instalar Docker
 Los siguientes pasos son requeridos para la instalación de docker. Referencia: https://docs.docker.com/engine/install/ubuntu/
