@@ -90,7 +90,7 @@ docker images
 # comprobar que el bin este funcionando correctamente
 peer version
 
-#Aclaración: si el peer version no funciona verificar que las variables de entorno de GOLANG estén correctamente declaradas
+#Aclaración: si el peer version no funciona verificar que las variables de entorno de GOLANG estén correctamente declaradas en $HOME/.profile y en ~/.bashrc
 
 ```
 
