@@ -44,7 +44,11 @@ Hyperledger Fabric usa Golang internamente. Versión de Go 1.14.x o superior es 
 
 ```bash 
 # Descargar y extraer el binario de go
-sudo wget -c https://dl.google.com/go/go1.14.9.linux-amd64.tar.gz -O - | tar -xz -C /usr/local
+	
+wget https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
+
+# Tras la descarga, extraemos el binario con el siguiente comando
+sudo tar -xvf go1.14.2.linux-amd64.tar.gz -C /usr/local/
 
 # Asignar ruta al binario
 echo 'export PATH="$PATH:/usr/local/go/bin:/root/fabric-samples/bin"' >> $HOME/.profile
